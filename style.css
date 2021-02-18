@@ -1,0 +1,80 @@
+body {
+	 /*This pattern is downloaded from www.subtlepatterns.com */
+	 background-image: url("img/vintage-concrete.png");
+	 font-size: 20px;
+}
+
+#container {
+	background-color:  #fff5e6;
+	width: 200px;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	-webkit-box-shadow: 9px 9px 19px 3px rgba(128,77,0,0.79);
+	-moz-box-shadow: 9px 9px 19px 3px rgba(128,77,0,0.79);
+	box-shadow: 9px 9px 19px 3px rgba(128,77,0,0.79);
+
+}
+
+input[type=text]
+input[type=password]
+{
+	width: 300px;
+	background-color:#efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline:none;
+	margin-top: 10px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus
+{
+	-webkit-box-shadow: 1px 1px 13px 3px rgba(128,77,0,0.67);
+	-moz-box-shadow: 1px 1px 13px 3px rgba(128,77,0,0.67);
+	box-shadow: 1px 1px 13px 3px rgba(128,77,0,0.67);
+	border: 1px solid #804d00;
+	background-color:  #fff5e6;
+	color:  #4d2e00
+}
+
+input[type=submit] {
+	width: 200px;
+	background-color: #b36b00;
+	font-size:20px;
+	color: white;
+	padding: 15px 10px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+input[type=submit]:focus {
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+}
+
+input[type=submit]:hover {
+	background-color: #cc7a00;
+}
+
+input::-webkit-input-placeholder { color:  #4d2e00; }
+input:focus::-webkit-input-placeholder { color:  #4d2e00; }
+/* Firefox < 19 */
+input:-moz-placeholder { color:  #4d2e00; }
+input:focus:-moz-placeholder{ color:  #4d2e00; }
+/* Firefox > 19 */
+input::-moz-placeholder { color:  #4d2e00; }
+input:focus::-moz-placeholder { color:  #4d2e00; }
+/* Internet Explorer 10 */
+input:-ms-input-placeholder { color:  #4d2e00; }
+input:focus:-ms-input-placeholder { color:  #4d2e00; }
